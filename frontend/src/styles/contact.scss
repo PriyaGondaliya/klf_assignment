@@ -1,0 +1,32 @@
+@import "colors.scss";
+.contact__button{
+    display: block;
+    background-color: $brown;
+    color: $white;
+    padding: .75rem 2.5rem;
+    margin-left: auto;
+    border-radius: .3rem;
+    // border: 2px solid $gold;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    width: 50%;
+   
+}
+.contact__input{
+    width:100%;
+    padding: .8rem;
+    outline: none;
+    border: 1.5px solid black;
+    margin-top: 8px;
+    margin-bottom: .5rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.contact__button:hover{
+    background-color: $lightBrown;
+    color: black;
+}

@@ -1,0 +1,17 @@
+@import "colors.scss";
+
+.footer{
+    background-color: $brown;
+ 
+   width: 100%;
+
+}
+.footer__data{
+    padding: 2%;
+}
+.footer__text{
+    color: $lightBrown;
+    text-align: center;
+}
+
+
